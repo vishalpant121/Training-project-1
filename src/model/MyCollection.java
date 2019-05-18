@@ -68,5 +68,11 @@ public class MyCollection
         return employee;
     }
 
+    public Integer getReadCounter() {
+        return readCounter;
+    }
 
+    public Integer getWriteCounter() {
+        return writeCounter;
+    }
 }
